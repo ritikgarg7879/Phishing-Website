@@ -1,8 +1,10 @@
 # Phishing URL Detection 
 
-![image2](https://github.com/asrith-reddy/Phishing-detector/assets/76733972/da226de9-dfe6-4f0c-a8bc-b92d4cc08e53)
+<img width="1913" height="973" alt="Screenshot 2025-10-13 230416" src="https://github.com/user-attachments/assets/5687a73f-44be-48f4-ac8b-e3ee4984297d" />
 
-![image1](https://github.com/asrith-reddy/Phishing-detector/assets/76733972/fe706a06-84fe-493f-abb8-34d3fbc594b5)
+<img width="1915" height="971" alt="Screenshot 2025-10-13 230239" src="https://github.com/user-attachments/assets/83030bfa-d4ad-46e4-8d2f-8db94e8563c5" />
+
+
 
 ## Objective
 
@@ -55,3 +57,4 @@ Accuracy of various model used for URL detection
 2. Creating this notebook helped me to learn a lot about the features affecting the models to detect whether URL is safe or not, also I came to know how to tuned model and how they affect the model performance.
 3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not.
 4. Gradient Boosting Classifier currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
+
