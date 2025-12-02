@@ -1,5 +1,27 @@
 # Phishing URL Detection 
 
+# Most Challenging Problem Solved
+
+## Problem
+I worked on a project where I had to detect phishing websites using machine learning.  
+The goal was to collect both phishing and normal URLs, extract useful features from them, and then train models to predict if a website is fake or real.
+
+## Why It Was Challenging
+It was difficult because phishing URLs are designed to look very similar to real ones, so extracting the right features was tricky.  
+Also, comparing the performance of multiple ML and deep learning models required careful testing.
+
+## My Approach
+I gathered phishing and benign URLs, cleaned the data, and extracted URL-based and content-based features.  
+Then I trained different machine learning and deep neural network models on this dataset.
+
+## Final Solution
+I compared the accuracy and performance of each model and identified which model worked best for predicting phishing websites.  
+This helped me build a more reliable phishing detection system.
+
+## What I Learned
+I learned how feature extraction affects model accuracy and how to compare multiple ML models effectively.  
+The project also improved my understanding of phishing attacks and security-focused ML systems
+
 <img width="1913" height="973" alt="Screenshot 2025-10-13 230416" src="https://github.com/user-attachments/assets/5687a73f-44be-48f4-ac8b-e3ee4984297d" />
 
 <img width="1915" height="971" alt="Screenshot 2025-10-13 230239" src="https://github.com/user-attachments/assets/83030bfa-d4ad-46e4-8d2f-8db94e8563c5" />
@@ -57,4 +79,5 @@ Accuracy of various model used for URL detection
 2. Creating this notebook helped me to learn a lot about the features affecting the models to detect whether URL is safe or not, also I came to know how to tuned model and how they affect the model performance.
 3. The final conclusion on the Phishing dataset is that the some feature like "HTTTPS", "AnchorURL", "WebsiteTraffic" have more importance to classify URL is phishing URL or not.
 4. Gradient Boosting Classifier currectly classify URL upto 97.4% respective classes and hence reduces the chance of malicious attachments.
+
 
